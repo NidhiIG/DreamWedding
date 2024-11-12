@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #e2c3c9;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #d94a6a;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #d94a6a;
+    padding: 10px 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+section h2 {
+    color: #d94a6a;
+    font-size: 1.5em;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #e2c3c9;
+    color: #333;
+}
+.hidden {
+    display: none;
+}
+
+/* Other CSS code remains the same */
